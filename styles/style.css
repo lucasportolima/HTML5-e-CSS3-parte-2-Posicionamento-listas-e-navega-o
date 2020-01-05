@@ -1,0 +1,91 @@
+header {
+    background-color: #B2B2B2;
+    padding: 20px 0px;
+}
+
+header div {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header nav {
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+header a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 40px;
+}
+
+main ul {
+    width: 940px;
+    margin: 0 auto;
+}
+
+main li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main li:hover {
+    border-color: yellow;
+}
+
+main li:active {
+    border-color: green;
+}
+
+main li h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #515151;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+}
